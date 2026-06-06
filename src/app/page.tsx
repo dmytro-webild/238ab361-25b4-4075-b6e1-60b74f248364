@@ -32,8 +32,6 @@ export default function WebAgency2Page() {
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
           brandName="Webild"
-          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ElbaHKmBkrcqDARExpAqJz1ISD/uploaded-1780758318927-1hhimx7b.png"
-          logoImageClassName="h-10 w-auto"
           navItems={[
             { name: "Work", id: "work" },
             { name: "Services", id: "services" },
