@@ -34,12 +34,12 @@ export default function WebAgency2Page() {
           brandName="Webmotion"
           logoAlt="Logo Webmotion"
           navItems={[
-            { name: "Projets", id: "work" },
-            { name: "Services", id: "services" },
-            { name: "À Propos", id: "about" },
-            { name: "Contact", id: "contact" }
+            { name: "Projets", href: "/#work" },
+            { name: "Services", href: "/#services" },
+            { name: "À Propos", href: "/#about" },
+            { name: "Contact", href: "/contact" }
           ]}
-          button={{ text: "Commencer", href: "#contact" }}
+          button={{ text: "Commencer", href: "/contact" }}
         />
         <HeroSplitDoubleCarousel
           title="Nous Créons des Expériences Digitales"
@@ -49,8 +49,8 @@ export default function WebAgency2Page() {
           tagAnimation="slide-up"
           background={{ variant: "canvas-reveal" }}
           buttons={[
-            { text: "Démarrer un Projet", href: "#contact" },
-            { text: "Voir Nos Projets", href: "#work" }
+            { text: "Démarrer un Projet", href: "/contact" },
+            { text: "Voir Nos Projets", href: "/#work" }
           ]}
           buttonAnimation="slide-up"
           carouselPosition="right"
@@ -75,7 +75,7 @@ export default function WebAgency2Page() {
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
-          buttons={[{ text: "Tous les Services", href: "#services" }]}
+          buttons={[{ text: "Tous les Services", href: "/#services" }]}
           buttonAnimation="slide-up"
           features={[
             {
@@ -103,7 +103,7 @@ export default function WebAgency2Page() {
           description="Une sélection de projets que nous avons réalisés pour des clients de divers secteurs."
           textboxLayout="default"
           useInvertedBackground={false}
-          buttons={[{ text: "Voir Tous les Projets", href: "#work" }]}
+          buttons={[{ text: "Voir Tous les Projets", href: "/#work" }]}
           buttonAnimation="slide-up"
           cardClassName="!h-auto aspect-video"
           features={[
@@ -240,7 +240,8 @@ export default function WebAgency2Page() {
             { id: "2", title: "Quelle est votre structure tarifaire ?", content: "Nous proposons une tarification basée sur les projets, adaptée à vos besoins. Chaque projet comprend le design, le développement, l'optimisation SEO et le support après le lancement." },
             { id: "3", title: "Offrez-vous une maintenance continue ?", content: "Oui ! Nous proposons des forfaits de support et de maintenance continus pour maintenir votre site web à jour, sécurisé et performant." },
             { id: "4", title: "Pouvez-vous refaire le design de mon site web existant ?", content: "Absolument. Nous sommes spécialisés dans les refontes de sites web qui modernisent votre marque tout en préservant votre contenu existant et votre classement SEO." },
-            { id: "5", title: "Quelles technologies utilisez-vous ?", content: "Nous construisons avec des technologies modernes, notamment Next.js, React et Tailwind CSS, pour garantir des sites web rapides, évolutifs et maintenables." }
+            { id: "5", title: "Quelles technologies utilisez-vous ?", content: "Nous construisons avec des technologies modernes, notamment Next.js, React et Tailwind CSS, pour garantir des sites web rapides, évolutifs et maintenables."
+            }
           ]}
         />
         <ContactCTA
@@ -249,8 +250,8 @@ export default function WebAgency2Page() {
           description="Construisons quelque chose d'extraordinaire ensemble. Contactez-nous et discutons de votre prochain projet."
           background={{ variant: "rotated-rays-animated" }}
           buttons={[
-            { text: "Démarrer Votre Projet", href: "#contact" },
-            { text: "Voir Nos Projets", href: "#work" }
+            { text: "Démarrer Votre Projet", href: "/contact" },
+            { text: "Voir Nos Projets", href: "/#work" }
           ]}
           buttonAnimation="slide-up"
           useInvertedBackground={false}
@@ -261,18 +262,18 @@ export default function WebAgency2Page() {
           columns={[
             {
               title: "Entreprise",              items: [
-                { label: "À Propos", href: "#about" },
-                { label: "Services", href: "#services" },
-                { label: "Projets", href: "#work" },
-                { label: "Contact", href: "#contact" }
+                { label: "À Propos", href: "/#about" },
+                { label: "Services", href: "/#services" },
+                { label: "Projets", href: "/#work" },
+                { label: "Contact", href: "/contact" }
               ]
             },
             {
               title: "Services",              items: [
-                { label: "Développement Web", href: "#" },
-                { label: "Référencement (SEO)", href: "#" },
-                { label: "Image de Marque", href: "#" },
-                { label: "Design UI/UX", href: "#" }
+                { label: "Développement Web", href: "/#services" },
+                { label: "Référencement (SEO)", href: "/#services" },
+                { label: "Image de Marque", href: "/#services" },
+                { label: "Design UI/UX", href: "/#services" }
               ]
             },
             {
