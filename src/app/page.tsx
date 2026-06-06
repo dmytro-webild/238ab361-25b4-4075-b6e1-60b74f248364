@@ -248,7 +248,7 @@ export default function WebAgency2Page() {
         />
         <FooterBase
           logoText="Webmotion"
-          copyrightText="© 2026 | Webmotion"
+          copyrightText="© 2026 Webmotion. Tous droits réservés."
           columns={[
             {
               title: "Company",              items: [
