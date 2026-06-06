@@ -31,7 +31,6 @@ export default function WebAgency2Page() {
     >
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
-          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ElbaHKmBkrcqDARExpAqJz1ISD/new-logo-image.png"
           logoAlt="Webmotion Logo"
           navItems={[
             { name: "Projets", id: "/#work" },
