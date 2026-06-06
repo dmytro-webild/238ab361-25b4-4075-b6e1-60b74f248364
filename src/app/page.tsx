@@ -34,10 +34,10 @@ export default function WebAgency2Page() {
           brandName="Webmotion"
           logoAlt="Logo Webmotion"
           navItems={[
-            { name: "Projets", href: "/#work" },
-            { name: "Services", href: "/#services" },
-            { name: "À Propos", href: "/#about" },
-            { name: "Contact", href: "/contact" }
+            { name: "Projets", id: "/#work" },
+            { name: "Services", id: "/#services" },
+            { name: "À Propos", id: "/#about" },
+            { name: "Contact", id: "/contact" }
           ]}
           button={{ text: "Commencer", href: "/contact" }}
         />
