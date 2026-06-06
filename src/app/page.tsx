@@ -33,7 +33,7 @@ export default function WebAgency2Page() {
         <NavbarLayoutFloatingOverlay
           brandName="Webild"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ElbaHKmBkrcDARExpAqJz1ISD/uploaded-1780758014383-rtxvvfx4.png"
-          logoImageClassName="h-8 w-auto"
+          logoImageClassName="h-10 w-auto"
           navItems={[
             { name: "Work", id: "work" },
             { name: "Services", id: "services" },
