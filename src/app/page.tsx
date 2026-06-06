@@ -220,7 +220,7 @@ export default function WebAgency2Page() {
           ]}
         />
         <FaqBase
-          title="Frequently Asked Questions""
+          title="Frequently Asked Questions"
           description="Everything you need to know about working with us."
           textboxLayout="default"
           useInvertedBackground={false}
