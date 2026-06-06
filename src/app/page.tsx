@@ -31,7 +31,7 @@ export default function WebAgency2Page() {
     >
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
-          brandName="Webild"
+          brandName="Webmotion"
           navItems={[
             { name: "Work", id: "work" },
             { name: "Services", id: "services" },
@@ -220,7 +220,7 @@ export default function WebAgency2Page() {
           ]}
         />
         <FaqBase
-          title="Frequently Asked Questions"
+          title="Frequently Asked Questions""
           description="Everything you need to know about working with us."
           textboxLayout="default"
           useInvertedBackground={false}
@@ -246,7 +246,7 @@ export default function WebAgency2Page() {
           useInvertedBackground={false}
         />
         <FooterBase
-          logoText="Webild"
+          logoText="Webmotion"
           copyrightText="© 2026 | Webild"
           columns={[
             {
