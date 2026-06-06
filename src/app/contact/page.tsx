@@ -27,7 +27,7 @@ export default function ContactPage() {
           navItems={[
             { name: "Projets", id: "/#work" },
             { name: "Services", id: "/#services" },
-            { name: "À Propos", id: "/#about" },
+            { name: "À Propos", id: "/about" },
             { name: "Contact", id: "/contact" }
           ]}
           button={{ text: "Commencer", href: "/contact" }}
@@ -48,7 +48,7 @@ export default function ContactPage() {
           columns={[
             {
               title: "Entreprise",              items: [
-                { label: "À Propos", href: "/#about" },
+                { label: "À Propos", href: "/about" },
                 { label: "Services", href: "/#services" },
                 { label: "Projets", href: "/#work" },
                 { label: "Contact", href: "/contact" }
